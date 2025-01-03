@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>P.K. Institute - Your Success, Our Mission</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"> 
+  <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #004d99;
+            padding: 15px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav .logo {
+            font-size: 30px;
+            font-weight: 700;
+            color: #00ace6;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #00ace6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to bottom, #004d99, #0073e6);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero .btn {
+            background: #00ace6;
+            padding: 15px 30px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .hero .btn:hover {
+            background: #004d99;
+        }
+
+        /* About Section */
+        .about {
+            padding: 50px 10%;
+            text-align: center;
+            background: #f1f1f1;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            color: #004d99;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .about .highlight {
+            font-weight: bold;
+            color: #0073e6;
+        }
+
+        /* Courses Section */
+        .courses {
+            padding: 50px 10%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .course-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .course-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .course-card h3 {
+            color: #004d99;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .course-card p {
+            color: #555;
+        }
+
+        /* Address Section */
+        .address {
+            padding: 50px 10%;
+            background: #f1f1f1;
+            text-align: center;
+        }
+
+        .address h2 {
+            color: #004d99;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .address p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #004d99;
+            color: white;
+            padding: 50px 10%;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            margin: 10px 0;
+        }
+
+        .contact a {
+            color: #00ace6;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+    </style> 
+ </head> 
+ <body> <!-- Navigation --> 
+  <nav> 
+   <div class="logo">
+    P.K. Institute
+   </div> 
+   <ul> 
+    <li><a href="#about">About</a></li> 
+    <li><a href="#courses">Courses</a></li> 
+    <li><a href="#address">Address</a></li> 
+   </ul> 
+  </nav> <!-- Hero Section --> 
+  <section class="hero"> 
+   <h1>P.K. Institute</h1> 
+   <p>Your Success, Our Mission</p> <a href="#contact" class="btn">Contact Us</a> 
+  </section> <!-- About Section --> 
+  <section class="about" id="about"> 
+   <h2>About Us</h2> 
+   <p>Welcome to <span class="highlight">P.K. Institute</span>, where excellence meets education.</p> 
+   <p><strong>Founder &amp; Teacher:</strong> Pushpendra Savita</p> 
+   <p>We provide quality education up to competition level, ensuring every student achieves their dreams.</p> 
+  </section> <!-- Courses Section --> 
+  <section class="courses" id="courses"> 
+   <div class="course-card"> 
+    <h3>Mathematics</h3> 
+    <p>Advanced and competitive-level coaching.</p> 
+   </div> 
+   <div class="course-card"> 
+    <h3>Science</h3> 
+    <p>Comprehensive coverage of Physics, Chemistry, and Biology.</p> 
+   </div> 
+   <div class="course-card"> 
+    <h3>English</h3> 
+    <p>Master language and grammar skills for all levels.</p> 
+   </div> 
+   <div class="course-card"> 
+    <h3>Social Science</h3> 
+    <p>In-depth study of History, Geography, and Civics.</p> 
+   </div> 
+  </section> <!-- Address Section --> 
+  <section class="address" id="address"> 
+   <h2>Our Address</h2> 
+   <p>C874+PCM, Karrhi, Barra World Bank, Barra, Kanpur, Uttar Pradesh - 208021, India</p> 
+  </section> <!-- Contact Section --> 
+  <section class="contact" id="contact"> 
+   <h2>Contact Us</h2> 
+   <p>Phone: +91 70077 31225</p> 
+   <p>Email: <a href="mailto:pksavita@gmail.com">pksavita@gmail.com</a></p> 
+  </section> <!-- Footer --> 
+  <footer> 
+   <p>© 2025 P.K. Institute. All rights reserved.</p> 
+   <p>Your Success, Our Mission</p> 
+  </footer> 
+ 
+</body></html>
